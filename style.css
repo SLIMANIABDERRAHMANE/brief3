@@ -1,0 +1,378 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-color: #F0CA0A;
+}
+nav{
+    background-color: #04336B;
+    font-family: 'Merriweather', serif;
+    display: flex;
+    height: 57px;
+    
+
+}
+nav ul li{
+    display: inline-block; 
+    padding: 0px 40px;
+    ;
+    
+
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.signin{
+    border-radius: 20px;
+    background-color: #488FFF;
+    border:none;
+    padding: 10px 15px;
+}
+li #logo{
+    width:70px;
+    height: 30px;
+    padding-right: 200px;
+    padding-top: 10px;
+   
+    
+}
+
+header{
+    background-color: #F0CA0A;
+    display: flex;
+    height: 450px;
+    font-family: 'Merriweather', serif;
+    
+
+}
+.promo{
+width: 25%;
+margin: 70px 40px;
+
+
+
+}
+.promo h1{
+    font-weight: 800;
+}
+.promo h2{
+    padding-top: 15px;
+    
+}
+header span{
+    color: #FF0404;
+    
+}
+.back{
+width:75%;
+}
+
+.back img{
+    height: 100%;
+    width: 100%;
+
+}
+.sec1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #04336B;
+    border: 1px groove black;
+    position: relative;
+    margin: auto;
+    height: 4.2rem;
+    width:900px;
+    font-family: 'Merriweather', serif;
+}
+
+
+.sec1 p{
+color: white;
+padding: 0px 10px;
+
+}
+.sec1 label{
+    position: absolute;
+    left:50%; padding-left: 2.1em;
+    font-family:serif;
+}
+.sec1 input{
+    position: relative;
+    padding: 0.6em 50px;
+    
+}
+.signup{
+    background-color: #488fff;
+    border:1px solid #488fff;
+    padding: 9px 15px;
+  
+}
+.sec1 a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.sec2{
+    background-color: #F0CA0A;
+    margin-bottom: 60px;
+    font-family: 'Merriweather', serif;
+    
+}
+.sec2 .textstep{
+    text-align: center;
+    padding: 50px;
+    
+}
+.sec2 .allstep{
+display: flex; 
+justify-content: space-evenly;
+color: white;
+text-align: center;
+  
+}
+.sec2 h1{
+    
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.location,.payment,.trip{
+    width: 20%;
+    background-color: #04336B;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 15px 15px 25px BLACK;
+}
+.sec2,.allstep h3{
+    padding-bottom: 10px;
+}
+
+    .sec2 i{
+    color: #F0CA0A;
+    font-size: 30px;
+    padding-bottom: 20px;
+    }
+
+    .sec1 i{
+    font-size: 50px;
+    padding-right: 10px;
+    color: #F0CA0A;
+    }
+
+
+footer{
+
+    background-color: #04336B;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border:1px solid white;
+    font-size:15px;
+    
+}
+    footer .lign1{
+        display: grid;
+        grid-template-columns: 15% 1% 15% 1% 15% 1% 10%;
+        justify-content: center;
+        padding: 15px;
+        color:white;
+        
+        
+        
+    }
+    footer .lign1 a{
+        color: white;
+        text-decoration: none;
+    }
+
+    
+footer .lign3{
+    display: grid;
+    grid-template-columns: repeat(4,80px) ;
+    justify-content: center;
+    
+}
+
+footer .lign3 a{
+    color: #F0CA0A;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 40px;
+}
+footer h6{
+    
+    
+    text-align: justify;
+    padding-left: 50px;
+}
+footer .lign4{
+    border-top: 1px groove white;
+}
+footer .spc{
+    padding: 0px 15px;
+}
+.lign4 span{
+    color: #FF0404;
+    
+}
+
+
+@media only screen and (max-width: 360px) {
+    #logo{
+        margin:auto;
+        display: block;
+        padding-bottom:10px;
+        
+
+    }
+    nav ul li{
+        padding: 8px;
+        display: inline;
+        
+        
+    }
+    nav{ width: 360px; height: 140px;
+
+        }
+
+    .signin{
+        margin: auto;
+        display: block;
+        margin-top: 10px;
+        
+    }
+
+    header{
+        display: block;
+    }
+    .back img{ 
+      
+      width: 90%;
+      
+
+    }
+    .back{
+        width: 100%;}
+    .promo{
+        width: 90%;
+        margin:5px 2px;
+        text-align: center;
+        
+
+    }
+
+
+
+    .sec1{
+    width: 350px;
+    display: flex;
+    justify-content: flex-start;
+        
+    }
+    .sec1 i{
+    font-size: 20px;
+    padding: 4px;
+    }
+    
+    .sec1 p{
+        font-size:0.2em ;
+        
+        
+    
+    }
+    .sec1 label{
+        left:47%;
+        font-size:8px;
+       
+        
+        
+    }
+    .sec1 input{
+        width: 60px;
+        height: 10px;
+        padding: 0.35em 30px;
+        }
+
+    .signup{
+        padding:6px;
+        font-size: 7px;
+       
+       }
+       .sec2{
+       margin-bottom: 30px;
+    }
+       .sec2 .textstep{
+        
+        padding: 20px;
+        
+    }
+    .sec2 h1{
+    
+        font-size: 20px;
+        padding-bottom: 6px;
+    }
+    .sec2 h5{
+    
+        font-size: 7px;
+     
+    }
+    .sec2 .allstep{
+      align-items: center;
+      flex-direction: column;
+      
+            }
+            .location,.payment,.trip{
+                width: 50%;
+                margin: 10px;
+                border-radius: 40px;
+                box-shadow: 20px 15px 25px BLACK;
+            }
+            .sec2 h3{
+                font-size: medium;
+                color: red;
+            }
+
+            footer{
+
+                text-align: center;
+                font-size:7px;
+                
+            }
+                footer .lign1{
+                    display: inline-grid;
+                    gap: 1px;
+                    grid-template-columns: 30% 5% 30% 5% 30% 5% 20%;
+                    padding: 5px ;
+ 
+                }
+                
+            
+                
+            footer .lign3{
+                
+                grid-template-columns: repeat(4,25px) ;
+                grid-gap:5px;
+                
+                
+            }
+            
+            footer .lign3 a{
+           
+                font-size: 20px;
+            }
+            footer h6{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 4px;
+                padding-left: 20px;
+                
+            }
+            
+            
+}
