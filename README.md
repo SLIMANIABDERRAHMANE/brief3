@@ -11,7 +11,7 @@ https://www.figma.com/file/PoDiiB8nh9XWMCSZ3jkaxV/Untitled?node-id=12%3A3 (wiref
 https://www.figma.com/file/aK1KUQqle2un9NkFKBLiRf/Untitled?node-id=3%3A2 (maquette desktop) 
 
 
-https://www.figma.com/file/PQ3VlqGpQi5hXp9Y6j0Kuq/maquette-sprinter-%7Bmobile%7D?node-id=0%3A1 (maquette mobile) 
+https://www.figma.com/file/PQ3VlqGpQi5hXp9Y6j0Kuq/maquette-sprinter-%7Bmobile%7D?node-id=0%3A1 (maquette mobile)
 
 
-https://trello.com/b/6LeWfQxn/brief3 (la présentation dans un outil de gestion de projet)
+https://trello.com/b/tJ6ux9x5/brief3 (la présentation dans un outil de gestion de projet)
